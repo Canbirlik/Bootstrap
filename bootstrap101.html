@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style101.css">
+    <title>Bootstrap 101</title>
+</head>
+<body>
+    <br>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <br>
+    <br>
+
+    <div class="card" style="width: 18rem;">
+        <img src="BesiktasJK-Logo.svg.webp" class="card-img-top" alt="Beşiktaş">
+        <div class="card-body">
+            <h5 class="card-title">Beşiktaş</h5>
+            <p class="card-text">Beşiktaş, Beşiktaş Jimnastik Kulübü'nün Süper Lig'de mücadele eden futbol takımı. 1903 yılında Bereket Jimnastik Kulübü adıyla kurulan Beşiktaş JK'nin, Ağustos 1911'de kurulan şubesidir. </p>
+            <a href="https://canbirlik.com" class="btn btn-primary">Üye Ol</a>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://cdn.ntvspor.net/79ceececad7349da9d73e832bdbfc8c8.jpg?crop=0,0,940,529&w=710&h=403&mode=crop" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://iaftm.tmgrup.com.tr/4e3b6c/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2023/08/01/transfer-haberi-besiktasin-listesindeydi-vitor-tormena-kararini-verdi-1690871254652.jpg&mw=752&mh=700&l=1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br>
+
+      <div class="myclass">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
